@@ -1,0 +1,25 @@
+# --- installer output ------------------------------------------------------
+.venv/
+install.log
+install.log.old
+Start PDF Concatenator.bat
+Start PDF Concatenator (desktop window).bat
+
+# --- runtime data: uploaded and merged PDFs stay on your machine -----------
+.web_data/
+
+# --- python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- node -----------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# --- editors / OS ---------------------------------------------------------
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
